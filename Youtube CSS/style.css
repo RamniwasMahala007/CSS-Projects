@@ -31,4 +31,50 @@ nav{
 }
 .search input{
     min-width: 600px;
+    padding: 10px 20px;
+    border: 0.5px solid #ccc;
+    border-radius: 40px 0 0px 40px;
+    cursor: pointer;
+}
+.search button{
+      
+        border: 0.5px solid #ccc;
+        border-radius: 0 40px 40px 0;
+        cursor: pointer;
+        height: 44px;
+        width: 64px;
+        margin: 0;
+}
+.mic{
+    padding: 10px;
+    background-color: rgb(233, 228, 228);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+   margin-left: 15px;
+}
+.side-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.tags{
+    display: flex;
+    padding: 20px 10px;
+    gap: 10px;
+}
+.tag{
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+
+}
+.dark{
+    background-color: black;
+    color: white;
+}
+.light{
+    background: rgb(238, 238, 238);
+    color: rgb(67, 67, 67);
 }
